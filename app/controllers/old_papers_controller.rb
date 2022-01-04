@@ -1,0 +1,2 @@
+class OldPapersController < ApplicationController
+end
