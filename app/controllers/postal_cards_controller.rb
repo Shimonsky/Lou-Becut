@@ -1,0 +1,2 @@
+class PostalCardsController < ApplicationController
+end
