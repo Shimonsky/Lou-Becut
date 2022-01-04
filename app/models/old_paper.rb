@@ -1,0 +1,2 @@
+class OldPaper < ApplicationRecord
+end
