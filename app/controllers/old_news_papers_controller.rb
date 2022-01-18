@@ -1,7 +1,7 @@
 class OldNewsPapersController < ApplicationController
 
   def index
-    @old_news_papers = OldNewsPaper.all
+    @old_news_papers = OldNewPaper.all
   end
 
   def show
