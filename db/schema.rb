@@ -12,6 +12,8 @@
 
 ActiveRecord::Schema.define(version: 2022_01_04_123023) do
 
+  enable_extension "plpgsql"
+  
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "author"
@@ -24,8 +26,6 @@ ActiveRecord::Schema.define(version: 2022_01_04_123023) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "condition"
     t.string "description"
-    t.string "AddImageUrlToBooks"
-    t.string "image_url"
   end
 
   create_table "old_new_papers", force: :cascade do |t|
