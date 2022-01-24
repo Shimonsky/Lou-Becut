@@ -9,9 +9,13 @@ require 'faker'
 
 Book.destroy_all
 
-Book.create(
-  title: Faker::Book.title,
-  author: Faker::Book.author,
-  editor: Faker::Book.publisher,
-  genre: Faker::Book.genre
-)
+10.times do
+  garden_request = RestClient.get("https://source.unsplash.com/1200x700/?garden")
+  Book.create(
+    title: Faker::Book.title,
+    author: Faker::Book.author,
+    editor: Faker::Book.publisher,
+    genre: Faker::Book.genre,
+    image_url: garden_request.request.url
+  )
+end
