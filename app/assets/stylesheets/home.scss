@@ -1,40 +1,65 @@
 
 .banner {
-  background-color: black;
+  background-color: #A39594;
   background-size: cover;
   background-position: center;
-  padding: 90px 0;
+  padding: 30px 0;
   text-align: center;
   margin-bottom: 20px;
 }
 
+.navhome {
+  background-color: #A39594;
+  position: absolute;
+  padding: 10px 0;
+  width: 35%;
+  margin-left: 15%;
+  margin-top: -15px;
+  text-align: left;
+}
+.linknav {
+  text-decoration: none;
+  font-size: 20px;
+}
+.titleb {
+  margin: 20px 0 0 -541px;
+}
+
 .banner h1 {
   margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  color: #66101F;
   font-weight: bold;
+  font-size: 100px;
+}
+
+.banner p {
+  color: #66101F;
+  font-size: 60px;
+  margin-top: -30px;
+  margin-left: -121px;
 }
 
 .cardhome {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 60%;
+  width: 50%;
   grid-gap: 25px;
   margin: auto;
+  margin-right: 75px;
 }
 
 .blink {
+  z-index: 2;
+  background-color: #A39594;
   background-size: cover;
   background-position: center;
   height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: #66101F;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -47,5 +72,5 @@
 
 .blink a {
   text-decoration: none;
-  color: black;
+  color: #66101F;
 }

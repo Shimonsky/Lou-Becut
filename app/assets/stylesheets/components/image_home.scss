@@ -1,0 +1,39 @@
+.img-theme {
+  width: 65%;
+  position: relative;
+  margin-left: 25px;
+}
+
+.imgt {
+  inline-size: inherit;
+  position: absolute;
+}
+.img1{
+  width: 33%;
+  position: absolute;
+  margin-top: -21px;
+  display: inline;
+}
+.imgb {
+  inline-size: inherit;
+  transition: transform .1s;
+  margin-right: -160%
+}
+
+.img2 {
+  width: 33%;
+  position: absolute;
+  margin-top: -21px;
+  display: inline;
+  position: absolute;
+}
+
+.imgb2 {
+  inline-size: inherit;
+}
+.img2:hover {
+  z-index: 5;
+  transform: scale(3);
+  margin-top: 15%;
+  width: fit-content;
+}

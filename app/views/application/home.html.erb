@@ -1,17 +1,18 @@
-<div class="containerhome">
-  <div class="banner">
-    <h1 class='title'><strong>Lou-Becut </strong>Archives</h1>
-  </div>
+
 
   <div class="containerhome">
-    <div class="cardhome">
 
+    <div class="img-theme">
+      <%= image_tag 'ANCIENS COSTUMES DE BRETAGNE 2.jpg', class: 'imgt'%>
+    </div>
+
+    <div class="cardhome">
       <div class="blink">
-        <%= link_to 'Livres', books_path(@books) %>
+        <%= link_to 'Livre', books_path(@books) %>
       </div>
 
       <div class="blink">
-        <%= link_to 'Vieux Journaux', old_news_papers_path(@old_news_papers) %>
+        <%= link_to 'Journaux', old_news_papers_path(@old_news_papers) %>
       </div>
       
 
